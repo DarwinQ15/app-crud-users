@@ -1,0 +1,138 @@
+.users-created{
+    width: 100%;
+}
+
+.container-users{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.btn-card{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    left: 60%;
+}
+
+.users-item{
+    width: 100%;
+    padding: 20px;
+}
+
+.bxs-gift{
+    font-size: 20px;
+}
+
+.btn-edit{
+    background-color: white;
+    width: 40px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.bx-edit-alt{
+    color: gray;
+}
+
+.btn-deleted{
+    width: 40px;
+    background-color: #D93F3F;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.bx-trash{
+    color: white;
+}
+
+.user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+}
+
+.user-name{
+    font-size: 18px;
+    margin: 0;
+}
+
+b{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.p-email{
+    font-size: 13px;
+}
+
+
+.users-card{
+    background-color: #E5E5E5;
+    box-shadow: 2px 2px 8px rgba(253, 253, 253, 0.794);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: #0F0F2D;
+    text-align: center;
+    font-size: 15px;
+}
+
+h2{
+    color:#0F0F2D;
+    font-size: 21px;
+    text-align: center;
+}
+
+@media (min-width: 558px) {
+    .users-item{
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .users-item{
+        width: 33.3333333%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .users-item{
+        width: 25%;
+    }
+}
